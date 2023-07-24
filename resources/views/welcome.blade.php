@@ -36,7 +36,6 @@
         @elseif(count($events) == 0)
 
         @endif
-        
     </div>
 </div>
 
