@@ -31,6 +31,11 @@
                 </div>
             </div>
         @endforeach
+        @if(count($events) == 0 && $search)
+        <p>Não foi possível encontrar eventos com {{ $search }} <a href="/"><br>Ver todos</a> </p>
+        @elseif(count($events) == 0)
+
+        @endif
         
     </div>
 </div>
